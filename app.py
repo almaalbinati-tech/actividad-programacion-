@@ -65,5 +65,5 @@ if descuento_monto > 0:
     st.write(f"Descuento (10% en efectivo): ${descuento_monto}")
     st.write(f"Monto con descuento: ${monto_con_descuento}")
 
-st.wite(f"IVA (21%): ${iva}")
+st.write(f"IVA (21%): ${iva}")
 st.markdown(f"Total a pagar: ${total}")
