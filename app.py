@@ -1,6 +1,8 @@
 
 import streamlit as st
 
+import armar_pdf, limpiar
+
 from fpdf import FPDF
 
 
@@ -67,3 +69,8 @@ if descuento_monto > 0:
 
 st.write(f"IVA (21%): ${iva}")
 st.markdown(f"Total a pagar: ${total}")
+
+if cliente == "":
+    st.warning("Escribí el nombre del cliente para armar el presupuesto")
+else:
+    st.download_button(...)
