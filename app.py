@@ -1,7 +1,5 @@
-
-import streamlit as st
-
 import armar_pdf, limpiar
+import streamlit as st
 
 from fpdf import FPDF
 
